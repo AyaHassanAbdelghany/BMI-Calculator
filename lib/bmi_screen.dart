@@ -46,9 +46,10 @@ class _BmiCalculatorScreenState extends State<BmiCalculatorScreen> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Icon(
-                              Icons.ac_unit_sharp,
-                              size: 70.0,
+                            Image(image:
+                            AssetImage('assests/images/male.png'),
+                              width: 100.0,
+                              height: 100.0,
                             ),
                             SizedBox(
                               height: 15.0,
@@ -84,9 +85,10 @@ class _BmiCalculatorScreenState extends State<BmiCalculatorScreen> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Icon(
-                              Icons.ac_unit_sharp,
-                              size: 70.0,
+                            Image(image:
+                            AssetImage('assests/images/female.png'),
+                              width: 100.0,
+                              height: 100.0,
                             ),
                             SizedBox(
                               height: 15.0,
